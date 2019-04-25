@@ -15,6 +15,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         print("helloworld")
+        
+        commitTest()
     }
 
     override func didReceiveMemoryWarning() {
@@ -24,6 +26,12 @@ class ViewController: UIViewController {
 
     func branchDebug(){
         
+    }
+    
+    func commitTest() -> Int {
+        let cout = 0
+        
+        return cout
     }
 
 }
